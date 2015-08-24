@@ -28,6 +28,7 @@ avatar: "/img/logo_home.png"
 # List of links in the navigation bar
 navbar-links:
   About: "about"
+  Categories: "categories"
   Contact: "contact"
   Languages: "languages"
   Reqs: "requirements"
