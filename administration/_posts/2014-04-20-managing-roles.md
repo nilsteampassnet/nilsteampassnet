@@ -2,7 +2,10 @@
 layout: 		post
 title: 			Managing Roles
 category: 		administration
-tags:			installation folder role
+tags:			
+- installation
+- folder
+- role
 ---
 
 <p class="message">
