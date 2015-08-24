@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: 	page
 Cloudtitle: 	Tags list
 subtitle:	
 permalink:	/tags/
