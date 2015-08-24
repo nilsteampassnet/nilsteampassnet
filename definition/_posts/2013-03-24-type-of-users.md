@@ -1,10 +1,15 @@
 ---
-layout:     post
-title:      Type of Users
+layout: post
+title: Type of Users
 categories: definition
-tags:       definition user-guide role
-comments:   true
+tags: 
+  - definition
+  - "user-guide"
+  - "role\""
+comments: true
+published: true
 ---
+
 
 <div style="message">
 Teampass relies on 3 roles which are Administrator, Manager and User.
