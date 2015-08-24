@@ -1,9 +1,13 @@
 ---
-layout: 		post
-title: 			Getting started
-category: 		administration usage
-tags:			installation 
+layout: post
+title: Getting started
+category: installation
+tags: 
+  - administration
+  - usage
+published: true
 ---
+
 
 <p class="message">
     This page describes how to start using Teampass.
@@ -19,7 +23,7 @@ You need first need to install Teampass on your server.
 The first step is to create Folders in which the Items will be added.
 Those folders have to be organized in a logical way for your need.
 
-Refer to page [Managing Folders] ({{ site.baseurl }}/administration/managing-folders.html).
+Refer to page (Managing Folders) [{{ site.baseurl }}/administration/managing-folders.html].
 
 # Creating Roles
 
