@@ -1,9 +1,11 @@
 ---
-layout: 		post
-title: 			Managing Users
-category: 		administration usage
-tags:			installation user manager
+layout: post
+title: Managing Users
+category: administration
+tags: installation user manager
+published: true
 ---
+
 
 <p class="message">
     This page describes how to create, edit, delete and manage Users.
@@ -97,4 +99,3 @@ For each User, you can:
 * Change the `Password`
 * Change the `Email`
 * See the `Log`
-
