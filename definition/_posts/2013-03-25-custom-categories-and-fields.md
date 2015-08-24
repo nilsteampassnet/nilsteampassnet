@@ -1,11 +1,15 @@
 ---
-layout:     post
-title:      Custom Categories and Fields
-category:   definition
-tags:       fields folders
-comments:   true
-noToc:      false
+layout: post
+title: Custom Categories and Fields
+category: definition
+tags: 
+  - fields
+  - folders
+comments: true
+noToc: false
+published: true
 ---
+
 
 <div style="message">
 Teampass permits you to define custom Categories for Items.
