@@ -28,9 +28,13 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About Me: "aboutme"
+  About: "about"
   Contact: "contact"
   Languages: "languages"
+  Reqs: "requirements"
+  Features: "features"
+  Licence: "licence"
+  Donation: "donation"
   
 # --- Footer options --- #
 
