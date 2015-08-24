@@ -1,8 +1,10 @@
 ---
-layout: 	page
-title: 		Categories
-subtitle:	Test
+layout: page
+title: Categories
+subtitle: Existing Categories are listed below
+published: true
 ---
+
 
 
 <ul class="tag-box inline">
