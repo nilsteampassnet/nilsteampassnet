@@ -1,10 +1,17 @@
 ---
-layout:     post
-title:      Roles definition
+layout: post
+title: Roles definition
 categories: definition
-tags:       definition user roles password complexity
-comments:   true
+tags: 
+  - definition
+  - user
+  - roles
+  - password
+  - complexity
+comments: true
+published: true
 ---
+
 
 <div style="message">
 Teampass uses Roles of Users in order to ease access rights definition.
