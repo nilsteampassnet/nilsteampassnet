@@ -1,9 +1,11 @@
 ---
-layout: 	post
-title: 		2-Factors authentication
-category: 	administration
-tags:		authentication 
+layout: post
+title: "2-Factors authentication"
+category: administration
+tags: authentication
+published: true
 ---
+
 
 <p class="message">
     This page describes how to use 2-Factors authentication from Google.
