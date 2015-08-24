@@ -32,7 +32,7 @@ navbar-links:
   Languages: "languages"
   Reqs: "requirements"
   Features: "features"
-  Licence: "licence"
+  License: "license"
   Donation: "donation"
   
 # --- Footer options --- #
