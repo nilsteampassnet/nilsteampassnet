@@ -23,7 +23,7 @@ description: A collaborative passwords manager
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/img/logo_home.png"
+avatar: "/img/logo_home.png"
 
 # List of links in the navigation bar
 navbar-links:
@@ -33,7 +33,7 @@ navbar-links:
   Languages: "languages"
   Reqs: "requirements"
   Features: "features"
-  License: "license"
+  #License: "license"
   Donation: "donation"
   
 # --- Footer options --- #
