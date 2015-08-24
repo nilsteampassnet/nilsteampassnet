@@ -6,34 +6,49 @@ published: true
 ---
 
 
+
 <div class="main-explain-area jumbotron">
 TeamPass is a Passwords Manager dedicated for managing passwords in a collaborative way on any server Apache, MySQL and PHP. It is especially designed to provide passwords access security for allowed people. This makes TeamPass really useful in a Business/Enterprise environment and will provide to IT or Team Manager a powerful and easy tool for customizing passwords access depending on the user’s role.
 </div>
 
 # Follow Teampass
 <div class="post-entry">
-		{% if paginator.page == 1 %} </div>
-	<!-- FACEBOOK --> <div class="posts-list">
-	<h1 class="post-title">Follow Teampass</h1> {% for post in paginator.posts %}
-	<div id="fb-root"></div> <article class="post-preview">
-	<script>(function(d, s, id) { <a href="{{ post.url | prepend: site.baseurl }}">
-		var js, fjs = d.getElementsByTagName(s)[0]; <h2 class="post-title">{{ post.title }}</h2>
+	{% if paginator.page == 1 %}
+	<!-- FACEBOOK -->
+	<h1 class="post-title">Follow Teampass</h1>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id; {% if post.subtitle %}
-		js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611"; <h3 class="post-subtitle">
-		fjs.parentNode.insertBefore(js, fjs); {{ post.subtitle }}
-	}(document, 'script', 'facebook-jssdk'));</script> </h3>
-	<div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" 
-data-width="600" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div> {% endif %}
-	<!-- TWITTER --> </a>
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" data-width="600" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+	<!-- TWITTER -->
 	<div><br />
-	<a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" 
-data-size="large">Follow @theteampass</a> <p class="post-meta">
-	<script>!function(d,s,id){var 
-js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
-Posted on {{ post.date | date: "%B %-d, %Y" }}
-	</div> </p>
-	{% endif %}  
+	<a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	{% endif %}
+</div>
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html}}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
@@ -42,7 +57,6 @@ Posted on {{ post.date | date: "%B %-d, %Y" }}
    </article>
   {% endfor %}
 </div>
-
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
