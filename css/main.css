@@ -407,9 +407,9 @@ header.header-post .post-heading .post-subheading {
   margin-bottom: 0;
 }
 
-// CUSTOM
+/******************** CUSTOM ****************/
 
-// for tag cloud and archives
+/* for tag cloud and archives */
 .tag-cloud {
   list-style: none;
   padding: 0;
