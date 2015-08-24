@@ -1,9 +1,13 @@
 ---
-layout: 		post
-title: 			Managing Folders
-category: 		administration
-tags:			installation folders
+layout: post
+title: Managing Folders
+category: administration
+tags: 
+  - installation
+  - folders
+published: true
 ---
+
 
 <p class="message">
     This page describes how to create, edit, delete and manage Folders.
