@@ -420,6 +420,12 @@ header.header-post .post-heading .post-subheading {
     margin: 0 12px 12px 0; 
   }
 }
+.tag-cloud li {
+  display: inline-block;
+  margin: 0 12px 12px 0;
+}
+
+
 #archives {
   padding: 5px;
 }
