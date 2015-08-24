@@ -1,11 +1,16 @@
 ---
-layout:     post
-title:      Attachments encryption
-category:   administration
-tags:       attachment encryption item
-comments:   true
-noToc:      false
+layout: post
+title: Attachments encryption
+category: administration
+tags: 
+  - attachment
+  - encryption
+  - item
+comments: true
+noToc: false
+published: true
 ---
+
 
 <div class="message">
 Teampass permits you to encrypt the Item attachments.
