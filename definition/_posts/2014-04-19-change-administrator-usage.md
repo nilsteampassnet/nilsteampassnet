@@ -1,10 +1,14 @@
 ---
-layout: 		post
-title: 			Change Administrator usage
-category: 		administration usage
-tags:			administration user
-toc:			false
+layout: post
+title: Change Administrator usage
+category: administration
+tags: 
+  - administration
+  - user
+toc: false
+published: true
 ---
+
 
 <p class="message">
     The Administrator user type can also manage Items.
