@@ -29,6 +29,7 @@ description: A collaborative passwords manager
 navbar-links:
   About: "about"
   Categories: "categories"
+  Tags: "tags"
   Contact: "contact"
   Languages: "languages"
   Reqs: "requirements"
