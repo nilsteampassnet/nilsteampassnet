@@ -2,9 +2,13 @@
 layout: post
 title: Managing Users
 category: administration
-tags: installation user manager
+tags: 
+  - installation
+  - user
+  - manager
 published: true
 ---
+
 
 
 <p class="message">
