@@ -1,10 +1,14 @@
 ---
-layout:     post
-title:      About data encryption
-category:   definition
-tags:       encryption categories
-comments:   true
+layout: post
+title: About data encryption
+category: definition
+tags: 
+  - encryption
+  - categories
+comments: true
+published: true
 ---
+
 
 <div class="message">
 Teampass secures your data by encrypting them following rules defined in this page.

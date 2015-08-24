@@ -1,10 +1,15 @@
 ---
-layout:     post
-title:      Folders definition
+layout: post
+title: Folders definition
 categories: definition
-tags:       definition folder tree
-comments:   true
+tags: 
+  - definition
+  - folder
+  - tree
+comments: true
+published: true
 ---
+
 
 <div style="message">
 Teampass uses Folders in order to organize the Items.
@@ -35,4 +40,3 @@ In all cases, this can be performed either by 'Managing Folders' page or by 'Ite
 How to perform those actions? See [THIS]() page.
 
 <i class="fa fa-warning" style="margin-right:10px;"></i>In case of folder deletion, all sub-folders and Items will also be deleted.
-
