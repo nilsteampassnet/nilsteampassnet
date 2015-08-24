@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Change Administrator usage
-category: administration
+category: definition
 tags: 
   - administration
   - user
 toc: false
 published: true
 ---
+
 
 
 <p class="message">
