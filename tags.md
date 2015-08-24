@@ -1,10 +1,9 @@
 ---
 layout: 	post
-title: 		Tags list
+Cloudtitle: 	Tags list
 subtitle:	
 ---
 
-<h1>Tag Cloud</h1>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">

@@ -406,3 +406,8 @@ header.header-post .post-heading .post-subheading {
 .blog-post table tr td :last-child {
   margin-bottom: 0;
 }
+
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
