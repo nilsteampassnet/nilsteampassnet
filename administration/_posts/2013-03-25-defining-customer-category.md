@@ -1,11 +1,17 @@
 ---
-layout:     post
-title:      Defining Categories and Fields
-category:   administration
-tags:       fields folders categories gui
-comments:   true
-noToc:      false
+layout: post
+title: Defining Categories and Fields
+category: administration
+tags: 
+  - fields
+  - folders
+  - categories
+  - gui
+comments: true
+noToc: false
+published: true
 ---
+
 
 <div style="message">
 This page describes how to manage custom Categories for Items.
