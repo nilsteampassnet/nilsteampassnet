@@ -1,3 +1,10 @@
+---
+layout: 	page
+title: 		Categories
+subtitle:	Test
+---
+
+
 <ul class="tag-box inline">
 {% assign tags_list = site.categories %}  
   {% if tags_list.first[0] == null %}
