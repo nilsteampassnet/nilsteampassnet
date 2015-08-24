@@ -1,7 +1,7 @@
 ---
 layout: 		post
 title: 			Managing Folders
-category: 		administration usage
+category: 		administration
 tags:			installation folders
 ---
 
@@ -14,17 +14,17 @@ tags:			installation folders
 
 Access to the `Folders Management` page.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_1.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_1.png)
 
 # Creating a new Folder
 
 Click the icon `Add a Folder`
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_2.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_2.png)
 
 And fill in the form
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_3.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_3.png)
 
 About the expected fields:
 
@@ -35,20 +35,20 @@ About the expected fields:
 
 The new Folder created is now in the list.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_4.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_4.png)
 
 # Edit a Folder
 
 You can at any moment edit a folder. Click the folder you want to edit and the edition dialog-box will be shown.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_5.png)
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_6.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_5.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_6.png)
 
 # Delete a Folder
 
 Deleting a Folder is done by clicking the `Delete icon`.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_7.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_7.png)
 
 If you confirm the deletion, then all Items inside this Folder will also be deleted.
 
@@ -62,7 +62,7 @@ In some circumstances, a User may need to add an Item that doesn't fulfil the pa
 
 For this, tick the box as shown in next screen capture.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_8.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_8.png)
 
 <i class="fa fa-lightbulb-o" style="margin-right:10px;"></i> Activate this only for a short time.
 
@@ -72,6 +72,6 @@ In some circumstances, a User may need to edit an Item that doesn't fulfil the p
 
 For this, tick the box as shown in next screen capture.
 
-* ![Folders Icon]({{ site.baseurl }}/assets/images/mng_fld_9.png)
+![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_9.png)
 
 <i class="fa fa-lightbulb-o" style="margin-right:10px;"></i> Activate this only for a short time.

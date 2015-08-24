@@ -1,8 +1,8 @@
 ---
-layout: 		post
-title: 			2-Factors authentication
-category: 	administration usage
-tags:				authentication 
+layout: 	post
+title: 		2-Factors authentication
+category: 	administration
+tags:		authentication 
 ---
 
 <p class="message">
@@ -18,7 +18,7 @@ Teampass comes with [2-factors authentication](http://en.wikipedia.org/wiki/Two-
 
 In order to be activated on your instance of Tempass, you need to activate it through Administration Settings page.
 
-* ![Example image]({{ site.baseurl }}/assets/images/2factors_admin_1.png)
+![Example image]({{ site.baseurl }}/img/posts/2factors_admin_1.png)
 
 ## Activate for users
 
@@ -27,7 +27,7 @@ This is performed through the Users management page.
 
 Click the 2-factors authentication icon to generate and send an email to the user including the link to the flash code.
 
-* ![Example image]({{ site.baseurl }}/assets/images/2factors_admin_2.png)
+![Example image]({{ site.baseurl }}/img/posts/2factors_admin_2.png)
 
 # User point of view
 
@@ -45,12 +45,12 @@ Getting authenticated under Teampass requires now to enter the login, personal p
 
 Through Google Authenticator application, the user get his OTP.
 
-* ![Example image]({{ site.baseurl }}/assets/images/2factors_user_1.png)
+![Example image]({{ site.baseurl }}/img/posts/2factors_user_1.png)
 
 Get to Teampass home page
 
 Enter your credentials
 
-* ![Example image]({{ site.baseurl }}/assets/images/2factors_user_2.png)
+![Example image]({{ site.baseurl }}/img/posts/2factors_user_2.png)
 
 You are now authenticated
