@@ -1,9 +1,13 @@
 ---
-layout: 		post
-title: 			Getting started
-category: 		administration usage
-tags:			installation 
+layout: post
+title: Getting started
+category: installation
+tags: 
+  - administration
+  - usage
+published: true
 ---
+
 
 <p class="message">
     This page describes how to start using Teampass.
