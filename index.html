@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My website
+title: Teampass
 subtitle: Welcome to Teampass website
 published: true
 ---
@@ -12,41 +12,28 @@ TeamPass is a Passwords Manager dedicated for managing passwords in a collaborat
 
 # Follow Teampass
 <div class="post-entry">
-        <!-- FACEBOOK -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611";
-                fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-        <div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" data-width="600" dat$
-data-header="false" data-stream="false" data-show-border="false" data-colorscheme="dark"></div>
-        <br /><br />
-        <!-- TWITTER -->
-        <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Foll$
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="/$
-        <br />
-</div>
-
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-	
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-  
+		{% if paginator.page == 1 %} </div>
+	<!-- FACEBOOK --> <div class="posts-list">
+	<h1 class="post-title">Follow Teampass</h1> {% for post in paginator.posts %}
+	<div id="fb-root"></div> <article class="post-preview">
+	<script>(function(d, s, id) { <a href="{{ post.url | prepend: site.baseurl }}">
+		var js, fjs = d.getElementsByTagName(s)[0]; <h2 class="post-title">{{ post.title }}</h2>
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id; {% if post.subtitle %}
+		js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611"; <h3 class="post-subtitle">
+		fjs.parentNode.insertBefore(js, fjs); {{ post.subtitle }}
+	}(document, 'script', 'facebook-jssdk'));</script> </h3>
+	<div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" 
+data-width="600" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div> {% endif %}
+	<!-- TWITTER --> </a>
+	<div><br />
+	<a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" 
+data-size="large">Follow @theteampass</a> <p class="post-meta">
+	<script>!function(d,s,id){var 
+js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+Posted on {{ post.date | date: "%B %-d, %Y" }}
+	</div> </p>
+	{% endif %}  
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html}}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
