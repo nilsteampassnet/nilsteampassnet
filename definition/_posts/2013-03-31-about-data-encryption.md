@@ -10,10 +10,10 @@ published: true
 ---
 
 
+
 <div class="message">
 Teampass secures your data by encrypting them following rules defined in this page.
 </div>
-<span class="linkmore"></span>
 
 # Encryption scope
 

@@ -11,10 +11,10 @@ published: true
 ---
 
 
+
 <div style="message">
 Teampass uses Folders in order to organize the Items.
 </div>
-<span class="linkmore"></span>
 
 # Introduction
 

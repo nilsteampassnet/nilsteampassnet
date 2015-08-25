@@ -11,10 +11,10 @@ published: true
 ---
 
 
+
 <div style="message">
 Teampass permits you to define custom Categories for Items.
 </div>
-<span class="linkmore"></span>
 
 # Introduction
 
@@ -36,7 +36,7 @@ Based on this, the 2 extra fields will be displayed for each Item stored in the 
 
 # How to define?
 
-The page [Define Categories](/administration/2013-03-25-defining-customer-category.html) indicates how to define new custom Categories and Fields.
+The page [Define Categories](./2013-03-25-defining-customer-category) indicates how to define new custom Categories and Fields.
 
 # Information
 

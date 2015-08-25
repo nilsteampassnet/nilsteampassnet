@@ -10,11 +10,9 @@ published: true
 ---
 
 
-
 <p class="message">
     The Administrator user type can also manage Items.
 </p>
-<span class="linkmore"></span>
 
 > An Administrator has by default no access to Items.
 

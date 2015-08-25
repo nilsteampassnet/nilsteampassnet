@@ -13,10 +13,10 @@ published: true
 ---
 
 
+
 <div style="message">
 Teampass uses Roles of Users in order to ease access rights definition.
 </div>
-<span class="linkmore"></span>
 
 # Introduction
 

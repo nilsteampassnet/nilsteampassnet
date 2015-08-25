@@ -5,16 +5,17 @@ categories: definition
 tags: 
   - definition
   - "user-guide"
-  - "role\""
+  - role
 comments: true
 published: true
 ---
 
 
+
+
 <div style="message">
 Teampass relies on 3 roles which are Administrator, Manager and User.
 </div>
-<span class="linkmore"></span>
 
 # Administrator
 
@@ -22,8 +23,8 @@ The Administrator has to set up Teampass to fit the expectations in term of feat
 In order to achieve this goal, his role is to:
 
 * Set the expected options
-* Manage the [Folders]() (creation, modification and deletion)
-* Manage the [Users Group]() (creation, modification and deletion)
+* Manage the [Folders](./2014-04-20-managing-folders) (creation, modification and deletion)
+* Manage the [Users Roles](./2014-04-20-managing-roles) (creation, modification and deletion)
 * Manage the Users (creation, modification and deletion)
 
 An Administrator can perform any kind of operation in Teampass except working on Items.
@@ -38,7 +39,7 @@ Notice that the Administrator has not access to the Items with his "administrato
 
 A Manager in Teampass is a super user that can:
 
-* manage [Folders]() (creation, modification and deletion) associated to the [Users Group]() he has
+* manage [Folders](./2014-04-20-managing-folders) (creation, modification and deletion) associated to the [Users Group]() he has
 * manage Users (modification and deletion) on which he is defined as "main administrator"
 * of course, deal with Items
 
