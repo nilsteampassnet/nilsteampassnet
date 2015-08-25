@@ -1,8 +1,6 @@
 ---
 layout: 		page
 title: 			Features
-noToc:			false
-group:          navigation
 ---
 
 <p class="message">
@@ -59,19 +57,19 @@ group:          navigation
 
 # Screen captures
 
-* ![Home page]({{ site.baseurl }}/assets/images/feat_1.png)
-* ![Items page]({{ site.baseurl }}/assets/images/feat_2.png)
-* ![Item definition]({{ site.baseurl }}/assets/images/feat_3.png)
-* ![Item password page]({{ site.baseurl }}/assets/images/feat_4.png)
-* ![Item attachments]({{ site.baseurl }}/assets/images/feat_5.png)
-* ![Find page]({{ site.baseurl }}/assets/images/feat_6.png)
-* ![Favorites page]({{ site.baseurl }}/assets/images/feat_7.png)
-* ![Roles management page]({{ site.baseurl }}/assets/images/feat_8.png)
-* ![Users management page]({{ site.baseurl }}/assets/images/feat_9.png)
-* ![Teampass settings page]({{ site.baseurl }}/assets/images/feat_10.png)
-* ![Teampass customization page]({{ site.baseurl }}/assets/images/feat_11.png)
-* ![Teampass files attachments page]({{ site.baseurl }}/assets/images/feat_12.png)
-* ![Administrator special actions page]({{ site.baseurl }}/assets/images/feat_13.png)
-* ![Backups definition page]({{ site.baseurl }}/assets/images/feat_14.png)
-* ![Emails setup page]({{ site.baseurl }}/assets/images/feat_15.png)
-* ![Custom categories definition page]({{ site.baseurl }}/assets/images/feat_16.png)
+![Home page]({{ site.baseurl }}/img/posts/feat_1.png)
+![Items page]({{ site.baseurl }}/img/posts/feat_2.png)
+![Item definition]({{ site.baseurl }}/img/posts/feat_3.png)
+![Item password page]({{ site.baseurl }}/img/posts/feat_4.png)
+![Item attachments]({{ site.baseurl }}/img/posts/feat_5.png)
+![Find page]({{ site.baseurl }}/img/posts/feat_6.png)
+![Favorites page]({{ site.baseurl }}/img/posts/feat_7.png)
+![Roles management page]({{ site.baseurl }}/img/posts/feat_8.png)
+![Users management page]({{ site.baseurl }}/img/posts/feat_9.png)
+![Teampass settings page]({{ site.baseurl }}/img/posts/feat_10.png)
+![Teampass customization page]({{ site.baseurl }}/img/posts/feat_11.png)
+![Teampass files attachments page]({{ site.baseurl }}/img/posts/feat_12.png)
+![Administrator special actions page]({{ site.baseurl }}/img/posts/feat_13.png)
+![Backups definition page]({{ site.baseurl }}/img/posts/feat_14.png)
+![Emails setup page]({{ site.baseurl }}/img/posts/feat_15.png)
+![Custom categories definition page]({{ site.baseurl }}/img/posts/feat_16.png)
