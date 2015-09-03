@@ -108,5 +108,22 @@ So if you use it, you may consider a donation.
       <td>$10.00</td>
       <td>2014-11-28</td>
     </tr>
+    <tr>
+      <td>Rafael Stoever</td>
+      <td>$15.00</td>
+      <td>2015-06-12</td>
+    </tr>
+    <tr>
+      <td>Jon Mell</td>
+      <td>$30.00</td>
+      <td>2015-08-21</td>
+    </tr>
+    <tr>
+      <td>Le Goût du Libre</td>
+      <td>$50.00</td>
+      <td>2015-08-24</td>
+    </tr>
+
+
   </tbody>
 </table>
