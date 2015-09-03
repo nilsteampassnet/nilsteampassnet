@@ -22,8 +22,6 @@ So if you use it, you may consider a donation.
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 </form>
-&nbsp;
-<a class="coinbase-button" data-code="20522cd69b05a3d8920a64520d1fd701" data-button-style="custom_large" data-custom="TeampassDonationID" href="https://coinbase.com/checkouts/20522cd69b05a3d8920a64520d1fd701">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 </center>
 
 
