@@ -24,7 +24,7 @@ You need first need to install Teampass on your server.
 The first step is to create Folders in which the Items will be added.
 Those folders have to be organized in a logical way for your need.
 
-Refer to page [Managing Folders]({{ site.baseurl }}administration/managing-folders.html).
+Refer to page [Managing Folders]({{ site.baseurl }}/2014-04-20-managing-folders).
 
 # Creating Roles
 
@@ -33,7 +33,7 @@ The second step consists in 2 activities:
 * creating Roles in which your Users will be added
 * set the access rights of Roles versus Folders
 
-Refer to page [Managing Folders]({{ site.baseurl }}administration/managing-roles.html).
+Refer to page [Managing Folders]({{ site.baseurl }}/2014-04-20-managing-roles).
 
 # Creating Users
 
@@ -41,7 +41,7 @@ The third step consists in creating Users that will use Teampass.
 
 You need to think about a global strategy relating the Folders, Roles and Users level.
 
-Refer to page [Managing Folders]({{ site.baseurl }}administration/managing-users.html).
+Refer to page [Managing Users]({{ site.baseurl }}/2014-04-20-managing-users).
 
 # Remember
 
