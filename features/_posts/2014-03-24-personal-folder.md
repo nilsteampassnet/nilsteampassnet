@@ -28,7 +28,7 @@ Personal Folder is disabled by default.
 
 In order to be activated for the Users, an Administrator needs to enable the feature through the Teampass Settings page.
 
-* ![Personal folder administration]({{ site.url }/img/posts/pf_1.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_1.png)
 
 ## Storing Personal Saltkey in cookie
 
@@ -36,7 +36,7 @@ Personal Saltkey can be stored in a cookie for more convenience. This will preve
 
 This feature needs to be enabled through the Teampass Settings page.
 
-* ![Personal folder administration]({{ site.url }/img/posts/pf_2.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_2.png)
 
 # Personal Saltkey
 
@@ -48,7 +48,7 @@ Each user defines his own Personal Saltkey that will be used for Personal Items 
 
 In the Home page, the user has to write down his Personal Saltkey.
 
-* ![Personal folder administration]({{ site.url }/img/posts/pf_3.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_3.png)
 
 Notes:
 
@@ -59,16 +59,16 @@ Notes:
 
 The user can change his Personal Saltkey using button "Change it" from the Home page.
 
-* ![Personal folder administration]({{ site.url }/img/posts/pf_6.png)
-* ![Personal folder administration]({{ site.url }/img/posts/pf_7.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_6.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_7.png)
 
 ## Personal Saltkey is lost
 
 This is the worst case because no recovery is possible. All your passwords are lost.
 Using button "Lost it" from the Home page permits to reset all the existing passwords.
 
-* ![Personal folder administration]({{ site.url }/img/posts/pf_4.png)
-* ![Personal folder administration]({{ site.url }/img/posts/pf_5.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_4.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/pf_5.png)
 
 # Limitation
 
