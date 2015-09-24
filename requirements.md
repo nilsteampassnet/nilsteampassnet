@@ -1,8 +1,9 @@
 ---
-layout: 		page
-title: 			Requirements
-noToc:			true
-group:          navigation
+layout:   page
+title: 	  Requirements
+noToc:	  true
+group:    navigation
+comments: true
 ---
 
 <p class="message">
