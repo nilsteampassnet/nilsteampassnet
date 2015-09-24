@@ -16,7 +16,7 @@ When you open an issue in Github, it could be good that you join the error gener
 Get <b>[Firebug][getfirebug]</b>!
 
 Once installed, you will get a small `bug` in the menu bar of the browser.
-![Firebug enabled]({{ site.url }}/assets/images/2014-02-09-02.png)
+![Firebug enabled]({{ site.url }}/img/posts/2014-02-09-02.png)
 
 
 # Activate options
