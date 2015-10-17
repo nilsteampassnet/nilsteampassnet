@@ -21,7 +21,7 @@ It has been entirely developed by <b>[Nils LaumaillC)](nils@teampass.net)</b> ba
 
 Teampass is developped using PHPStorm edited by [JetBrains](https://www.jetbrains.com/).
 
-![PHPStorm](https://www.jetbrains.com/phpstorm/documentation/docs/logo_phpstorm.png)
+[![PHPStorm](https://www.jetbrains.com/phpstorm/documentation/docs/logo_phpstorm.png)](https://www.jetbrains.com/phpstorm/?fromMenu)
 
 ## Github
 
