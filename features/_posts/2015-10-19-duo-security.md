@@ -2,7 +2,7 @@
 layout: post
 category: feature
 tags: "feature usage duo-security"
-published: false
+published: true
 ---
 
 
@@ -40,7 +40,7 @@ This chapter describes how to create the DUOSecurity application for your Teampa
  
  Store the IKEY, SKEY and Host. You will need them in Teampass.
  
- ## Create the users
+## Create the users
  
  Inside the Users menu, create a new user for each user you have in Teampass.
  
