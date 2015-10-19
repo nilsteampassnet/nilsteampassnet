@@ -2,7 +2,9 @@
 layout: post
 category: feature
 tags: "feature usage duo-security"
+published: true
 ---
+
 
 <div class="message">
     This page introduces the usage of DUOSecurity. Remember that a 2 factor solution is one of the most efficient way to protect your data inside Teampass. I recommand to use this solution.
@@ -21,3 +23,12 @@ Once enabled, this feature will require you to synchronize the accounts in Teamp
 
 When a Teampass user will require an access to Teampass, DUOSecurity will check if he/she is allowed to access and he/she will need to confirm the access through a dedicated and personal device (check the [authentication methods](https://www.duosecurity.com/product/methods)). If DUOSecurity confirms the legitimity of the user, then Teampass will allow the user to get connected.
 
+
+## Define a specific application for your Teampass instance
+
+This chapter describes how to create the DUOSecurity application for your Teampass instance.
+
+ * Get connected to your DUOSecurity dashboard
+ * Select `Applications` in the menu
+ * Click button `Protect an Application`
+ * In the list, select `Web SDK` 
