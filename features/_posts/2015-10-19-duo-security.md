@@ -31,4 +31,8 @@ This chapter describes how to create the DUOSecurity application for your Teampa
  * Get connected to your DUOSecurity dashboard
  * Select `Applications` in the menu
  * Click button `Protect an Application`
- * In the list, select `Web SDK` 
+ * In the list, select `Web SDK` and click `Protect this application`
+ * Give a name to this application (example: Teampass)
+ * The next settings could be selected:
+   * `Username normalization` set to `none`,
+   
