@@ -2,7 +2,7 @@
 layout: post
 category: feature
 tags: "feature usage duo-security"
-published: true
+published: false
 ---
 
 
@@ -38,10 +38,25 @@ This chapter describes how to create the DUOSecurity application for your Teampa
    * `New user policy` set to `Require Enrollment`
  * Click button `Save changes`
  
+ Store the IKEY, SKEY and Host. You will need them in Teampass.
+ 
  ## Create the users
  
  Inside the Users menu, create a new user for each user you have in Teampass.
  
  You must ensure that the speling is exactly similar.
  
- ... to be continued
+ ## Enable DUOSecurity in Teampass
+ 
+  * Login in Teampass with an Administrator account.
+  * Open `Settings` page
+  * Select tab `2FA options`
+  * Enable DuoSecurity by selecting option `Yes`
+  * Generate a random key for `AKEY`
+  * Fill in `IKEY`, `SKEY` and `HOST` with the credentials from the application you previously created in DUOSecurity dashboard.
+  * Click button `Save data in sk.php file`
+  
+  Now your users will have to connect by indicating their login and password, and through DUOSecurity (and especially `DuoPush` feature) to get authenticated in Teampass.
+  
+ 
+Notice that this feature is available since release 2.1.24.
