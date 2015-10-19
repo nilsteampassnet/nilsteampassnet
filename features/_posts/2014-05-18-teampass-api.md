@@ -1,9 +1,11 @@
 ---
-layout: 		post
-title: 			API access through third party application
-category:		feature
-tags:			feature api
+layout: post
+title: API access through third party application
+category: feature
+tags: feature api
+published: true
 ---
+
 
 <p class="message">
     This page describes how to use API access.
@@ -45,9 +47,9 @@ The answer would be
 
 Reading the content of several Category is performed by accessing the URL
 
-`<url to teampass>/api/index.php/read/category/<folder id1>,<folder id2>,<folder id3>?apikey=<valid api key>`
+`<url to teampass>/api/index.php/read/category/<folder id1>;<folder id2>;<folder id3>?apikey=<valid api key>`
 
-The separator symbol is the comma ` , `.
+The separator symbol is the comma ` ; `.
 
 The answer would be exactly the same as in the previous example.
 
@@ -55,9 +57,9 @@ The answer would be exactly the same as in the previous example.
 
 To get the information about one specific Item, use URL
 
-`<url to teampass>/api/index.php/read/items/<item id1>,<item id2>,<item id3>?apikey=<valid api key>`
+`<url to teampass>/api/index.php/read/items/<item id1>;<item id2>;<item id3>?apikey=<valid api key>`
 
-The separator symbol is the comma ` , `.
+The separator symbol is the comma ` ; `.
 
 The answer would be exactly the same as in the previous example.
 
@@ -65,9 +67,9 @@ The answer would be exactly the same as in the previous example.
 
 It is possible to add a new Item using the API. Use URL
 
-`<url to teampass>/api/index.php/add/item/<label>,<password>,<description>,<folder id>,<login>,<email>,<url>,<tags>,<any one can modify>?apikey=<valid api key>`
+`<url to teampass>/api/index.php/add/item/<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>`
 
-The separator symbol is the comma ` , `.
+The separator symbol is the comma ` ; `.
 
 *Some limitations*:
 
@@ -103,3 +105,21 @@ The format sent back is JSON.
 If several entries exist for one URL then all possibilities will be sent back.
  
 Example: {"<item_id>":{"label":"<pass#1>","login":"<login#1>","pw":"<pwd#1>"},"<item_id>":{"label":"<pass#2>","login":"<login#2>","pw":"<pwd#2>"}}
+
+
+# Add new USer
+ 
+It is possible to add a new User using the API. Use URL
+ 
+`<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1|ROLE2|...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>`
+ 
+The separator symbol is the comma ` ; `.
+ 
+*Some limitations*:
+ 
+* for `READ_ONLY`, `IS_ADMIN`, `IS_MANAGER`, `PERSONAL_FOLDER`, accepted value is `1` for TRUE and `0` for FALSE
+* for `ADMINISTRATEDBY` and `ROLE1`, accepted value is the real label (not the IDs)
+
+```
+https://127.0.0.1/teampass/api/index.php/add/user/U4;Nils;Laumaille;test;nils@laumaille.fr;Users;0;Managers|Users;0;1;1?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
+```
