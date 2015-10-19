@@ -43,3 +43,5 @@ This chapter describes how to create the DUOSecurity application for your Teampa
  Inside the Users menu, create a new user for each user you have in Teampass.
  
  You must ensure that the speling is exactly similar.
+ 
+ ... to be continued
