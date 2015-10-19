@@ -38,4 +38,8 @@ This chapter describes how to create the DUOSecurity application for your Teampa
    * `New user policy` set to `Require Enrollment`
  * Click button `Save changes`
  
+ ## Create the users
  
+ Inside the Users menu, create a new user for each user you have in Teampass.
+ 
+ You must ensure that the speling is exactly similar.
