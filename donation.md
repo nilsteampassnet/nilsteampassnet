@@ -37,79 +37,19 @@ So if you use it, you may consider a donation.
   </thead>
   <tbody>
     <tr>
-      <td>Stephen Buckley</td>
-      <td>$10.00</td>
-      <td>2012-02-16</td>
+      <td>Linqhost IF</td>
+      <td>$125.00</td>
+      <td>2015-11-03</td>
     </tr>
     <tr>
-      <td>Svein-Erik Larsen</td>
-      <td>$20.00</td>
-      <td>2012-03-22</td>
+      <td>OPAG Informatik AG</td>
+      <td>$250.00</td>
+      <td>2015-11-03</td>
     </tr>
     <tr>
-      <td>Markus Pustal</td>
-      <td>$20.00</td>
-      <td>2012-05-09</td>
-    </tr>
-    <tr>
-      <td>Przemysław Lepiarz</td>
-      <td>$15.00</td>
-      <td>2012-08-16</td>
-    </tr>
-    <tr>
-      <td>Patrick Le Bas</td>
-      <td>$10.00</td>
-      <td>2012-08-31</td>
-    </tr>
-    <tr>
-      <td>Jason Hubbard</td>
-      <td>$15.00</td>
-      <td>2013-02-06</td>
-    </tr>
-    <tr>
-      <td>Jennifer Martin</td>
-      <td>$20.00</td>
-      <td>2013-03-25</td>
-    </tr>
-    <tr>
-      <td>Brian Watt</td>
-      <td>$15.00</td>
-      <td>2013-06-29</td>
-    </tr>
-    <tr>
-      <td>GOV.com</td>
-      <td>$30.00</td>
-      <td>2013-10-16</td>
-    </tr>
-    <tr>
-      <td>Петров Роман</td>
-      <td>$10.00</td>
-      <td>2014-01-29</td>
-    </tr>
-    <tr>
-      <td>ANDREW</td>
-      <td>$25.00</td>
-      <td>2014-04-21</td>
-    </tr>
-    <tr>
-      <td>Podshivalov Dmitry</td>
-      <td>$20.00</td>
-      <td>2014-05-26</td>
-    </tr>
-    <tr>
-      <td>Dennis Knutti</td>
-      <td>$35.00</td>
-      <td>2014-11-23</td>
-    </tr>
-    <tr>
-      <td>Petr Ustohal</td>
-      <td>$10.00</td>
-      <td>2014-11-28</td>
-    </tr>
-    <tr>
-      <td>Rafael Stoever</td>
-      <td>$15.00</td>
-      <td>2015-06-12</td>
+      <td>Le Goût du Libre</td>
+      <td>$50.00</td>
+      <td>2015-08-24</td>
     </tr>
     <tr>
       <td>Jon Mell</td>
@@ -117,11 +57,80 @@ So if you use it, you may consider a donation.
       <td>2015-08-21</td>
     </tr>
     <tr>
-      <td>Le Goût du Libre</td>
-      <td>$50.00</td>
-      <td>2015-08-24</td>
+      <td>Rafael Stoever</td>
+      <td>$15.00</td>
+      <td>2015-06-12</td>
     </tr>
-
+    <tr>
+      <td>Petr Ustohal</td>
+      <td>$10.00</td>
+      <td>2014-11-28</td>
+    </tr>
+    <tr>
+      <td>Dennis Knutti</td>
+      <td>$35.00</td>
+      <td>2014-11-23</td>
+    </tr>
+    <tr>
+      <td>Podshivalov Dmitry</td>
+      <td>$20.00</td>
+      <td>2014-05-26</td>
+    </tr>
+    <tr>
+      <td>ANDREW</td>
+      <td>$25.00</td>
+      <td>2014-04-21</td>
+    </tr>
+    <tr>
+      <td>Петров Роман</td>
+      <td>$10.00</td>
+      <td>2014-01-29</td>
+    </tr>
+    <tr>
+      <td>GOV.com</td>
+      <td>$30.00</td>
+      <td>2013-10-16</td>
+    </tr>
+    <tr>
+      <td>Brian Watt</td>
+      <td>$15.00</td>
+      <td>2013-06-29</td>
+    </tr>
+    <tr>
+      <td>Jennifer Martin</td>
+      <td>$20.00</td>
+      <td>2013-03-25</td>
+    </tr>
+    <tr>
+      <td>Jason Hubbard</td>
+      <td>$15.00</td>
+      <td>2013-02-06</td>
+    </tr>
+    <tr>
+      <td>Patrick Le Bas</td>
+      <td>$10.00</td>
+      <td>2012-08-31</td>
+    </tr>
+    <tr>
+      <td>Przemysław Lepiarz</td>
+      <td>$15.00</td>
+      <td>2012-08-16</td>
+    </tr>
+    <tr>
+      <td>Markus Pustal</td>
+      <td>$20.00</td>
+      <td>2012-05-09</td>
+    </tr>
+    <tr>
+      <td>Svein-Erik Larsen</td>
+      <td>$20.00</td>
+      <td>2012-03-22</td>
+    </tr>
+    <tr>
+      <td>Stephen Buckley</td>
+      <td>$10.00</td>
+      <td>2012-02-16</td>
+    </tr>
 
   </tbody>
 </table>
