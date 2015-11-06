@@ -1,4 +1,4 @@
---
+---
 layout: post
 category: feature
 tags: "feature usage mobile"
@@ -25,7 +25,7 @@ PassSecurium is avaialable in 2 versions:
 
 The next matrix gives the main features for those 2 versions.
 
-![Features Matrix]({{ site.baseurl }}/assets/posts/2015-11-06-passsecurium-matrix.png)
+![Features Matrix](/assets/posts/2015-11-06-passsecurium-matrix.png)
 
 ## Demo
 
