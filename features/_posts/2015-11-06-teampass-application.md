@@ -12,7 +12,7 @@ Alpeinsoft has developped an application for accessing your Teampass instances t
 
 # PASSSECURIUM
 
-*PassSecurium* is the name of application available for both Android and iOS that permits you accessing your Teampass instance on you mobile.
+*PassSecurium* is the name of application available for both Android and iOS that permits you accessing your Teampass instance on your mobile.
 
 [Alpeinsoft.ch](https://www.alpeinsoft.ch/)
 
