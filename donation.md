@@ -33,9 +33,21 @@ So if you use it, you may consider a donation.
       <th>Name</th>
       <th>Amount</th>
       <th>Date</th>
+      <th></th>	
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Aitire S.L.</td>
+      <td>$240.00</td>
+      <td>2015-11-12</td>
+      <td>Sponsorized Flash removal</td>
+    </tr>
+    <tr>
+      <td>Xuan Truong Ta</td>
+      <td>$10.00</td>
+      <td>2015-11-11</td>
+    </tr>
     <tr>
       <td>Linqhost IF</td>
       <td>$125.00</td>
@@ -45,6 +57,7 @@ So if you use it, you may consider a donation.
       <td>OPAG Informatik AG</td>
       <td>$250.00</td>
       <td>2015-11-03</td>
+      <td>Sponsorized DUOSecurity library implementation</td>
     </tr>
     <tr>
       <td>Le Goût du Libre</td>

@@ -14,7 +14,7 @@ comments: true
 
 * Apache v2.0 (and after)
 * MySQL v5.1 (and after)
-* PHP v5.3.0 (and after)
+* PHP v5.4.0 (and after) since release 2.1.23
 
 ### PHP enabled modules
 
