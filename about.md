@@ -17,7 +17,7 @@ published: true
 
 ## Developer
 
-It has been entirely developed by <b>[Nils LaumaillC)](nils@teampass.net)</b> based upon his original idea.
+It has been entirely developed by <b>[Nils Laumaill&eacute;)](nils@teampass.net)</b> based upon his original idea.
 
 Teampass is developped using PHPStorm edited by [JetBrains](https://www.jetbrains.com/).
 
