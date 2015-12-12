@@ -63,7 +63,7 @@ So if you use it, you may consider a donation.
       <td>OPAG Informatik AG</td>
       <td>$250.00</td>
       <td>2015-11-03</td>
-      <td>Sponsorized DUOSecurity library implementation</td>
+      <td>Sponsorized DUOSecurity implementation</td>
     </tr>
     <tr>
       <td>Le Goût du Libre</td>
