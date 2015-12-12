@@ -25,7 +25,7 @@ So if you use it, you may consider a donation.
 </center>
 
 
-## List of actual Donators â.. Thank You!
+## List of actual Donators - Thank You!
 
 <table width="100%">
   <thead>
