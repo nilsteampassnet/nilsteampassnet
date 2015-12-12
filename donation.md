@@ -27,7 +27,7 @@ So if you use it, you may consider a donation.
 
 ## List of actual Donators - Thank You!
 
-<table width="100%">
+<table width="100%"  cellpadding="5">
   <thead>
     <tr>
       <th>Name</th>
