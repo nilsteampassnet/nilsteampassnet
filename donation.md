@@ -25,9 +25,9 @@ So if you use it, you may consider a donation.
 </center>
 
 
-## List of actual Donators â€¦ thank you!
+## List of actual Donators â.. Thank You!
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th>Name</th>
@@ -37,6 +37,12 @@ So if you use it, you may consider a donation.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Martin Thiel</td>
+      <td>$50.00</td>
+      <td>2015-11-30</td>
+      <td></td>
+    </tr>
     <tr>
       <td>Aitire S.L.</td>
       <td>$240.00</td>
