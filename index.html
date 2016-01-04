@@ -15,7 +15,7 @@ comments: true
   This makes TeamPass really useful in a Business/Enterprise environment and will provide to IT or Team Manager a powerful and easy tool for customizing passwords access depending on the user’s role.
 </div>
 
-
+# Follow Teampass
 <div class="post-entry">
 	{% if paginator.page == 1 %}
 	<!-- FACEBOOK -->
@@ -36,6 +36,25 @@ comments: true
 	</div>
 	{% endif %}
 </div>
+
+# Open discussions
+
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/theteampass'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+
+
+# Latest post
 
 <div class="posts-list">
   {% for post in paginator.posts %}
