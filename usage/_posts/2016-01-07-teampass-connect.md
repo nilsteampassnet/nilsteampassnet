@@ -47,10 +47,13 @@ This might not be necessary if you are using Teampass inside your own network (i
 You can request a 7-days evaluation one by contacting me by mail [nils at teampass.net](mailto:nils@teampass.net).
 
 ## Important
-
 **Teampass Connect** is not free of use.
-
 Price is not yet defined.
+
+**Teampass Connect** has just being proposed on Mozilla Add-ons Center and is yet not validated or signed. If you want to use it, you will need to change a variable in Firefox.
+ * open a tab and write ```àbout:config```
+ * search for variable ```xpinstall.signatures.required````and change it to ```false```
+ * install now the add-on
 
 ## Todo
 
