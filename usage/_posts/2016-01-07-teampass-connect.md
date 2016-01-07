@@ -1,4 +1,3 @@
-
 ---
 layout:                 post
 title:                  Teampass Connect - An add-on for your web-browser
