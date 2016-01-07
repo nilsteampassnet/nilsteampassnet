@@ -20,6 +20,7 @@ and to permit to fill-in the login/password fields inside those web pages.
 ## Features
 
 The main features of **Teampass Connect** are:
+
  * Get the couple ```login/password``` related to the open web-page
  * Fill-in the ```login/password``` fields in the web-page
  * Automatically submit the page
@@ -52,8 +53,8 @@ Price is not yet defined.
 
 **Teampass Connect** has just being proposed on Mozilla Add-ons Center and is yet not validated or signed. If you want to use it, you will need to change a variable in Firefox.
 
- * open a tab and write ```àbout:config```
- * search for variable ```xpinstall.signatures.required````and change it to ```false```
+ * open a tab and write ```about:config```
+ * search for variable ```xpinstall.signatures.required```and change it to ```false```
  * install now the add-on
 
 ## Todo
