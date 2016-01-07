@@ -1,11 +1,10 @@
 ---
 layout:                 post
-title:                  Teampass Connect - An add-on for your web-browser
+title:                  Teampass Connect Add-on
 category:               usage
 tags:                   addon firefox
 ---
 
-# Teampass Connect add-on
 
 **Teampass Connect** is an add-on working with Firefox web-browser.
 
