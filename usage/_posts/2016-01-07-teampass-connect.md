@@ -61,3 +61,4 @@ Price is not yet defined.
 
  * Migrate to Chrome
  * Synchronize login and/or password changes to Teampass Server
+ * ... and much more
