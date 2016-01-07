@@ -1,9 +1,11 @@
 ---
-layout:                 post
-title:                  Teampass Connect Add-on
-category:               usage
-tags:                   addon firefox
+layout: post
+title: "Teampass Connect Add-on"
+category: usage
+tags: addon firefox
+published: true
 ---
+
 
 
 **Teampass Connect** is an add-on working with Firefox web-browser.
@@ -44,12 +46,12 @@ This might not be necessary if you are using Teampass inside your own network (i
 
 **Teampass Connect** for Firefox is available at [Firefox Add-ons Center](https://addons.mozilla.org/en-US/firefox/addon/teampass-connect/).
 
-** Teampass Connect** requires a specific key to be fully operational.
+**Teampass Connect** requires a specific key to be fully operational.
 You can request a 7-days evaluation one by contacting me by mail [nils at teampass.net](mailto:nils@teampass.net).
 
 ## Important
 
-**Teampass Connect** will not be free of use.
+**Teampass Connect** is not free of use.
 
 Price is not yet defined.
 
