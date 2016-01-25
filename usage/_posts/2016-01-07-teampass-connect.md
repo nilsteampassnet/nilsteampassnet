@@ -17,6 +17,10 @@ published: true
 Its goal is to grab the Items existing in your Teampass instance related to the webpage opened in your web-browser, 
 and to permit to fill-in the login/password fields inside those web pages.
 
+## Download
+
+[Download last release (0.03)](https://mega.nz/#!JdAnAZxa!DJBm8CU5aPLAsRathpFoWtRQSJfqp9GwvDkYuDRduBw)
+
 ## Features
 
 The main features of **Teampass Connect** are:
