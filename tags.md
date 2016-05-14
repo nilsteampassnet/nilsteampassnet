@@ -7,7 +7,7 @@ permalink:	/tags/
 
 <ul class="tag-cloud">
 {% for tag in site.tags %}
-  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100  }}%">
     <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
     </a>
