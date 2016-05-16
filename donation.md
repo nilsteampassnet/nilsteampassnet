@@ -1,8 +1,9 @@
 ---
-layout: 		page
-title: 			Donation
-comments:		false
-noToc:			true
+layout: page
+title: Donation
+comments: false
+noToc: true
+published: true
 ---
 
 <p class="message">
@@ -37,6 +38,12 @@ So if you use it, you may consider a donation.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Brian King</td>
+      <td>$15.00</td>
+      <td>2016-05-16</td>
+      <td></td>
+    </tr>
     <tr>
       <td>Martin Thiel</td>
       <td>$50.00</td>
