@@ -14,7 +14,7 @@ published: true
 
 
 <div style="message">
-Teampass relies on 3 roles which are Administrator, Manager and User.
+Teampass relies on different roles which are Administrator, Team Manager, Manager, User and Read-Only.
 </div>
 
 # Administrator
@@ -40,11 +40,21 @@ Notice that the Administrator has not access to the Items with his "administrato
 A Manager in Teampass is a super user that can:
 
 * manage [Folders](./2014-04-20-managing-folders) (creation, modification and deletion) associated to the [Users Group]() he has
-* manage Users (modification and deletion) on which he is defined as "main administrator"
-* of course, deal with Items
+* manage Users (modification and deletion) on which he is defined as "administrator"
+* deal with Items
 
 A Manager could be a Team leader.
+
+# Team Manager
+
+A Team Manager has the same rights as a Manager plus the ability to manage all existing users in the Database (except the Administrators).
+
+As a consequence, if you define a user as being `Team Manager`, then this user will automatically inherit of `Manager` rights.
 
 # User
 
 A User is a normal Teampass user which deal with Items the way defined by Administrator and Manager.
+
+# Read-Only
+
+A Read-Only user has no ability to create and modify Items. He has access to the Folders and Items as defined by his account but he will never be able to modify anything.

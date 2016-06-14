@@ -107,19 +107,85 @@ If several entries exist for one URL then all possibilities will be sent back.
 Example: {"<item_id>":{"label":"<pass#1>","login":"<login#1>","pw":"<pwd#1>"},"<item_id>":{"label":"<pass#2>","login":"<login#2>","pw":"<pwd#2>"}}
 
 
-# Add new USer
+# Add new User
  
-It is possible to add a new User using the API. Use URL
+The API permits to add a new user in Teampass.
+
+## Call format
+The URL to send has to be preformated as shown bellow.
  
-`<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1|ROLE2|...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>`
+`<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATED_BY>;<READ_ONLY>;<ROLE1|ROLE2|...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>`
  
 The separator symbol is the comma ` ; `.
  
 *Some limitations*:
  
 * for `READ_ONLY`, `IS_ADMIN`, `IS_MANAGER`, `PERSONAL_FOLDER`, accepted value is `1` for TRUE and `0` for FALSE
-* for `ADMINISTRATEDBY` and `ROLE1`, accepted value is the real label (not the IDs)
+* for `ADMINISTRATED_BY` and `ROLE1`, accepted value is the real label (not the IDs)
+
+## Example
+
+The next URL ...
 
 ```
-https://127.0.0.1/teampass/api/index.php/add/user/U4;Nils;Laumaille;test;nils@laumaille.fr;Users;0;Managers|Users;0;1;1?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
+https://127.0.0.1/teampass/api/index.php/add/user/U4;Nils;Laumaille;test;nils@teampass.net;U1;0;Managers|Users;0;1;1?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
 ```
+
+... creates a user with next characteristics:
+* `Login`: U4
+* `Name`: Nils
+* `Lastname`: Laumaille
+* `Password`: test
+* `Email`: nils@teampass.net
+* `Is administrated by`: U1
+* `Is read-only`: No
+* `Roles`: Managers|User
+* `Is administrator`: No
+* `Is manager`: Yes
+* `Has personal folder`: Yes
+
+# Delete Item
+
+**Warning** The API will delete the data from database.
+
+## Deleting all items inside folders
+
+This chapter explains how to delete all Items inside one or several folders.
+
+### Call format
+
+`<url to teampass>/api/index.php/delete/folder/<folder_id1;folder_id2;folder_id3>?apikey=<VALID API KEY>`
+
+Use the keywords `delete/folder/`
+
+Followed by the IDs of the folders in which the Items will be deleted.
+You can indicate several folders if you separate the folder IDs by a comma ` ; `.
+
+### Example 
+
+```
+https://127.0.0.1/teampass/api/index.php/delete/folder/3;48;62?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
+```
+
+This URL will delete Items inside folders with IDs 3, 48 and 62.
+
+## Deleting specific items
+
+This chapter explains how to delete specific Items.
+
+### Call format
+
+`<url to teampass>/api/index.php/delete/item/<item_id1;item_id2;item_id3>?apikey=<VALID API KEY>`
+
+Use the keywords `delete/item/`
+
+Followed by the IDs of the items to be deleted.
+You can indicate several items if you separate the item IDs by a comma ` ; `.
+
+### Example 
+
+```
+https://127.0.0.1/teampass/api/index.php/delete/item/3;12;16?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
+```
+
+This URL will delete Items with IDs 3, 12 and 16.
