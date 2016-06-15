@@ -114,9 +114,11 @@ The API permits to add a new user in Teampass.
 ## Call format
 The URL to send has to be preformated as shown bellow.
  
-`<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATED_BY>;<READ_ONLY>;<ROLE1|ROLE2|...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>`
+`<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATED_BY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>`
  
-The separator symbol is the comma ` ; `.
+The separator symbol is the semi-colon ` ; `.
+
+The separator symbol for Roles is the comma ` , `.
  
 *Some limitations*:
  
@@ -128,7 +130,7 @@ The separator symbol is the comma ` ; `.
 The next URL ...
 
 ```
-https://127.0.0.1/teampass/api/index.php/add/user/U4;Nils;Laumaille;test;nils@teampass.net;U1;0;Managers|Users;0;1;1?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
+https://127.0.0.1/teampass/api/index.php/add/user/U4;Nils;Laumaille;test;nils@teampass.net;U1;0;Managers,Users;0;1;1?apikey=sae6iekahxiseL3viShoo0chahc1ievei8aequi
 ```
 
 ... creates a user with next characteristics:
