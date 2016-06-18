@@ -1,52 +1,59 @@
 ---
 layout: post
-title: Roles definition
+title: Group definition
 categories: definition
 tags: 
   - definition
   - user
-  - roles
-  - password
-  - complexity
+  - group
 comments: true
 published: true
 ---
 
 
+> Teampass uses Groups of Users in order to ease access rights definition.
 
-<div style="message">
-Teampass uses Roles of Users in order to ease access rights definition.
-</div>
+# Definition
 
-# Introduction
+A Group contains the access rights setup on Folders. As a consequence, when a User is allocated to a Group, this User inherits of the the Folders access rights as defined for this Group. 
 
-A Users Role contains a set of Users. It permits to ease the administration of access rights on Folders.
-Indeed access rights on Folders are defined by Users Role. 
+It permits to ease the administration of access rights on Folders.
 
-Notice that a User may be associated to several Users Role.
+Notice that a User may be associated to several Groups.
 
-<i class="fa fa-bell" style="margin-right:10px;"></i>A good practice is to organize the Users Roles by team or groups of interest.
+<span class="fa fa-bulb"></span>&nbsp;A good practice is to organize the Groups by team or group of interest.
 
-# Example
+## Example
 
-Let's consider 3 Users (Us1, Us2 and Us3), 2 Folders (Fld1 and Fld2), and 2 Users Role (UG1 and UG2) defined as below:
+Let's consider 3 Users (Us1, Us2 and Us3), 2 Folders (Fld1 and Fld2), and 2 Groups (G1 and G2) defined as below:
 
-* UG1 contains Us1, Us2 and Us3. It is associated to Fld2
-* UG2 contains Us2. It is associated to Fld1
+* G1 allow access to Fld2
+* G2 allow access to Fld1
+* Us1, Us2 and Us3 are allocated to G1
+* Us2 is allocated to G2
 
-Based on this assumption, Us2 is the unique user to have access to both Fdl1 and Fld2.
+Based on this, Us2 is the unique user to have access to both Fdl1 and Fld2.
 
-# Who can?
+## Create, modify and delete
 
-Creation, modification and deletion can only be performed by an Administrator or a Manager.
+Creation, modification and deletion can only be performed by an **Administrator** or a **Manager**.
 
 Notes:
 
-* The Manager will only see the Roles that he is associated to.
-* Deleting a User Group will not delete the associated Users.
+* The Manager will only see the Groups that he is associated to.
+* Deleting a Group will not delete allocated Users.
 
-# User password complexity
+# Access rights on Folders
 
-A Users Role also defines the minimum complexity level accepted for user passwords definition.
+A Group permits to define the access rights of allocated Users on the Folders.
 
-Notice that if a user belongs to several Users Roles, then the most higher complexity level will be set for his password definition.
+The possible access rights of a Group on a Folder are:
+
+* No Access
+* Read-Only
+* Write
+	* with no restriction in edition and/or deletion
+	* with no Items edition rights
+	* with no Items deletion rights
+
+Based upon those different rights, it is possible to build fine tunned configuration for Users access on Folders.

@@ -118,7 +118,7 @@ The URL to send has to be preformated as shown bellow.
  
 The separator symbol is the semi-colon ` ; `.
 
-The separator symbol for Roles is the comma ` , `.
+The separator symbol between Roles is the comma ` , `.
  
 *Some limitations*:
  
