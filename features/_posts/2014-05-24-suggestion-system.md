@@ -20,13 +20,13 @@ Suggestion System is disabled by default.
 
 In order to be activated it, an Administrator needs to enable the feature through the Teampass Settings page.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_1.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_1.png)
 
 # Description
 
 As shown in next screen-capture, accessing to Suggestion System page is done using a specific Icon in the top menu bar.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_2.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_2.png)
 
 This Icon is only available for `Read-Only`, `Manager` and `Administrator` users.
 
@@ -34,7 +34,7 @@ This Icon is only available for `Read-Only`, `Manager` and `Administrator` users
 
 It is a classical table view that permits to quickly identify the existing suggestion and to create new suggestions.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_3.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_3.png)
 
 # Adding a Suggestion
 
@@ -43,7 +43,7 @@ It is a classical table view that permits to quickly identify the existing sugge
 New Suggestion is done using the `Add Button`.
 The Suggestion definition is done through the next form.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_4.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_4.png)
 
 The next fields are used:
 
@@ -68,11 +68,11 @@ Only a `Manager` or an `Administrator` can validate a Suggestion.
 
 For this use the `plus icon` in front of the Suggestion you want to validate.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_5.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_5.png)
 
 You need to confirm through a specific dialog-box. 
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_6.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_6.png)
 
 
 # Delete a Suggestion
@@ -81,8 +81,8 @@ Only a `Manager` or an `Administrator` can delete a Suggestion.
 
 For this use the `minus icon` in front of the Suggestion you want to validate.
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_7.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_7.png)
 
 You need to confirm through a specific dialog-box. 
 
-* ![Personal folder administration]({{ site.url }}/assets/images/suggestion_system_8.png)
+* ![Personal folder administration]({{ site.url }}/img/posts/suggestion_system_8.png)

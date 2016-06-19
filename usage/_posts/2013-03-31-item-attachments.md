@@ -19,7 +19,7 @@ The Item definition includes the possibility to add attachments. Teampass distin
 
 Run-time used is indicated in Home page.
 
-* ![run-time info]({{ site.baseurl }}/assets/images/ia_1.png)
+* ![run-time info]({{ site.baseurl }}/img/posts/ia_1.png)
 
 # Administration
 
@@ -35,13 +35,13 @@ A maximum file size can be defined if you want to limit the size of attached fil
 
 For each category of attachment, the allowed file extensions can be customized.
 
-* ![run-time info]({{ site.baseurl }}/assets/images/ia_6.png)
+* ![run-time info]({{ site.baseurl }}/img/posts/ia_6.png)
 
 ## Image resize
 
 In case of the attachment is an image, you can ask Teampass to resize it if its size exceeds the values you have defined.
 
-* ![run-time info]({{ site.baseurl }}/assets/images/ia_7.png)
+* ![run-time info]({{ site.baseurl }}/img/posts/ia_7.png)
 
 Resize is performed upon the 3 next criteria:
 <ul class="fa-ul">
@@ -70,7 +70,7 @@ Attaching one or several files to an Item is performed through the Item edition/
 
 <i class="fa fa-bullhorm"></i> Saving is mandatory to confirm the upload of the files.
 
-* ![Uploading files]({{ site.baseurl }}/assets/images/ia_2.png)
+* ![Uploading files]({{ site.baseurl }}/img/posts/ia_2.png)
 
 ## How to delete an attachment?
 
@@ -81,11 +81,11 @@ Attaching one or several files to an Item is performed through the Item edition/
 
 <i class="fa fa-bullhorm"></i> Saving is mandatory to confirm the deletion.
 
-* ![Deleting a file]({{ site.baseurl }}/assets/images/ia_3.png)
-* ![Deleting a file]({{ site.baseurl }}/assets/images/ia_5.png)
+* ![Deleting a file]({{ site.baseurl }}/img/posts/ia_3.png)
+* ![Deleting a file]({{ site.baseurl }}/img/posts/ia_5.png)
 
 ## How to download an attachment?
 
 When browsing an Item, you can click on one of the attachment to start the download of the file.
 
-* ![Downloading]({{ site.baseurl }}/assets/images/ia_4.png)
+* ![Downloading]({{ site.baseurl }}/img/posts/ia_4.png)

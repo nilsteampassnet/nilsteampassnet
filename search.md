@@ -1,10 +1,14 @@
 ---
-layout:         page
+layout:         default
 title:          Search
 comments:       false
 noToc:          true
 group:          navigation
 ---
+
+## Search
+
+<div id="google-custom-search">
 
 <script>
   (function() {
@@ -19,4 +23,5 @@ group:          navigation
 </script>
 <gcse:search></gcse:search>
 
+</div>
 

@@ -1,14 +1,15 @@
 ---
 layout: post
 category: feature
-tags: "feature usage duo-security"
+title: Secured login with DUO
+tags: feature usage duo-security
 published: true
 ---
 
 
-<div class="message">
-    This page introduces the usage of DUOSecurity. Remember that a 2 factor solution is one of the most efficient way to protect your data inside Teampass. I recommand to use this solution.
-</div>
+
+This page introduces the usage of DUOSecurity. Remember that a 2 factor solution is one of the most efficient way to protect your data inside Teampass. I recommand to use this solution.
+
 
 ## About DUOSecurity
 

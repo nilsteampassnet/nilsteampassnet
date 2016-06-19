@@ -11,7 +11,7 @@ comments: true
 published: true
 ---
 
-> Teampass expects Users to use a login password defined with a minimum level of complexity.
+Teampass expects Users to use a login password defined with a minimum level of complexity.
 
 # Definition
 

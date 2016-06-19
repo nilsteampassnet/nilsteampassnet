@@ -580,3 +580,20 @@ table tr td :last-child {
 .post-tags {
   text-align: right;
 }
+
+/* SEARCH */
+    .nav-search-link .nav-search-icon {
+      display: none;
+    }
+    .nav-search-link .nav-search-text {
+      display: inline;
+    }
+    @media only screen and (min-width: 768px) {
+      .nav-search-link .nav-search-icon {
+        display: inline;
+      }
+      .nav-search-link .nav-search-text {
+        display: none;
+      }
+      
+    }

@@ -15,7 +15,7 @@ Teampass lists all Items present in a Folder once the Folder is selected.
 
 The list of Items is displayed through an ajax query and will be loaded by increment (10 items by loop).
 
-* ![Shortcuts]({{ site.baseurl }}/assets/images/loi_1.png)
+* ![Shortcuts]({{ site.baseurl }}/img/posts/loi_1.png)
 
 The label of the Items is displayed and also short cuts for:
 
@@ -27,7 +27,7 @@ The label of the Items is displayed and also short cuts for:
 
 Shortcuts can enabled or disabled through `Settings` page and selecting tab `Customize`.
 
-* ![Shortcuts]({{ site.baseurl }}/assets/images/loi_2.png)
+* ![Shortcuts]({{ site.baseurl }}/img/posts/loi_2.png)
 
 # Optimization
 
