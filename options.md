@@ -19,6 +19,19 @@ This page lists all major options that can be selected through the `Settings` an
 - [Failed item edition](#failed-edition)
 - [One Time View link expiration](#otv-expiration)
 - [Managers can edit and delete items](#managers-edit-delete)
+- [Folders with identical name](#folder-same-name)
+- [Items with identical label](#item-same-name)
+- [Identical items in Folder](#similar-items-one-folder)
+- [Simplify Tree](#simple-tree)
+- [New folder rights inheritance](#folder-rights)
+- [Adding more fields to Items using Categories](#categories))
+- [Manage sub-folders of allowed parent-folder](#manage-sub-folders)
+- [Passwords can expire after a date or a number of displays](#pwd-expiration)
+- [Automatically delete items](#item-auto-deletion)
+- [Printing out in PDF file](#pdf-file)
+- [Importing with CSV/Keepass files](#importing)
+- [Everyone can modify](#every-one-can-modify)
+- [Items access restricted with specific paramaters](#restricted-access)
 
 ----------
 
@@ -132,9 +145,162 @@ This link can only be open once as it is deleted once displayed. This option per
 
 ### <a name="managers-edit-delete"></a>Managers can edit and delete items
 
-By default, Managers are normal Users plus some rights concerning Folders, Groups and Users configuration.
+Managers are normal Users with some more rights on Folders, Groups and Users configuration.
 By enabling this option, they will also be allowed to `edit` and `delete` any Items they are allowed to access.
 
 By default, this option is **enabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="folder-same-name"></a>Folders with identical name
+
+By default, it is not allowed to have 2 Folders with the same name. Nevertheless this restriction can be by-passed by enabling it.
+
+As a result, no control will be performed on Folder names while creating or editing them. And 2 or more folders may have the same name inside Teampass tree structure.
+
+[Back to Top](#top)
+
+----------
+
+### <a name="item-same-name"></a>Items with identical label
+
+By default, it is not allowed to have 2 Items with the same label. Nevertheless this restriction can be by-passed by enabling it.
+No control will be performed on Item labels while creating or editing them as long as they are located in different Folders.
+
+As a result, several Items may have the same label while they are located in different Folders. But no duplicate one will be allowed in one Folder.
+
+[Back to Top](#top)
+
+----------
+
+### <a name="similar-items-one-folder"></a>Identical items in Folder
+
+As seen in previous point, similar Items in one Folder is not possible by default in Teampass. By enabling this feature, users may create Items with similar label inside a unique Folder.
+
+[Back to Top](#top)
+
+----------
+
+### <a name="simple-tree"></a>Simplify Tree
+
+The folders Tree is shown as a complete structure. As a consequence, a User (depending on his access rights) may see Folders that he will not be able to access. By clicking on it, a warning message indicating the User that he is not allowed to access the folder will be displayed.
+
+In case of simple Tree structure, it could be useful to enable this option, so that Users only see the Folders they are allowed to access.
+
+But this might generate inconsistencies for the Users in complex Tree structure. Indeed if a User has access to a sub-folder of a folder (to which he is not allowed to access), the Tree structure will not show the top-folder which will give a wrong view of the path to User.
+But this is only a view, there is no incidence on the data and containt.
+
+[Back to Top](#top)
+
+----------
+
+### <a name="folder-rights"></a>New folder rights inheritance
+
+When creating a new Folder, all existing User-Groups who have acces to parent-folder will also receive the access rights to this new sub-folder.
+
+*As an example, if parent-folder can be accessed by User-Groups U1 and U3, then those 2 User-Groups will have access to this new sub-folder (respecting the type of access defined).*
+
+By enabling this option, all User-Groups the creator belongs to will also receive the `Write` access on this new sub-folder.
+
+*As an example, if Creator belongs to User-Groups U1, U2 and U4, then all users belonging to those 3 User-Groups will also have Write access on this new sub-folder.*
+
+[Back to Top](#top)
+
+----------
+
+### <a name="categories"></a>Adding more fields to Items using Categories
+
+It is possible to define custom fields to be added to Items definition. As example, `URL` field is by designed existing in Teampass but for a specific type of Items, it could be requested to have a `Credit Card PIN` field. In this case, it could be interesting to enable this option.
+
+By using the tab `Categories`, it is possible to define Categories of new fields. Each Category is then related to Folders.
+By this it is possible to request specific types of fields to be added to the Item Definition.
+
+Notice that **all custom fields inputs are encrypted** in the database.
+
+By default, this option is **disabled**. 
+
+[Read more about the Categories usage](2013-03-25-custom-categories-and-fields)
+
+[Back to Top](#top)
+
+----------
+
+### <a name="manage-sub-folders"></a>Manage sub-folders of allowed parent-folder
+
+Users cannot `edit` and/or `delete` Folders they have not created.
+
+Nevertheless this can be by-passed when this option is enabled.
+So if enabled, Users having access to a top-folder will be allowed to `edit` and/or `delete` any sub-folders.
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="pwd-expiration"></a>Passwords can expire after a period of time
+
+Teampass permits to define a renewal period by Folder.
+Meaning that if option is enabled and a period of renewal  set (in days), password defined in an Item will require to be updated at least once the renewal period is passed.
+
+If not updated, the Item will remain hidden for Users. Only the Creator and Managers will see it. 
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="item-auto-deletion"></a>Automatically delete Items
+
+Once created, an Item can be displayed without any limit of time.
+
+Nevertheless, Teampass permits to define a pre-defined limit of time after which the Item will be deleted (pushed to the Recycle Bin). This limit of time can be defined as being a `date` or a `maximum counter of vizualization`.
+
+This date of counter is defined in the Item definition dialogbox.
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="pdf-file"></a>Printing out in PDF file
+
+For any reason, Teampass permits to export a list of Items in a PDF file. For security reasons, a password is asked to protect the PDF file and this action is logged inside the database.
+Exporting to a PDF file starts with selecting the folders from which the Items list will be exported.
+
+Exporting to PDF can be limited to specific User-Group.
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="importing"></a>Importing with CSV/Keepass files
+
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="every-one-can-modify"></a>Everyone can modify
+
+
+By default, this option is **disabled**. 
+
+[Back to Top](#top)
+
+----------
+
+### <a name="restricted-access"></a>Items access restricted with specific paramaters
+
+
+By default, this option is **disabled**. 
 
 [Back to Top](#top)
