@@ -10,19 +10,16 @@ published: true
 ---
 
 
+This page describes how to create, edit, delete and manage Users.
 
-<p class="message">
-    This page describes how to create, edit, delete and manage Users.
-</p>
-<span class="linkmore"></span>
 
-# Access to Users Management page
+## Access to Users Management page
 
 Access to the `Users Management` page.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_users_1.png)
 
-# Creating a new User
+## Creating a new User
 
 Click the icon `Add a User`
 
@@ -46,7 +43,7 @@ The new Role is now added to the list.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_users_4.png)
 
-# Edit a User
+## Edit a User
 
 Editing a User is done by clicking the text. An edition field will be displayed.
 Validate the change by clicking the disk icon.
@@ -57,7 +54,7 @@ To edit settings `Managed by`, `Roles`, `Allowed Folders` or `Forbidden Folders`
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_users_6.png)
 
-## Allowed and Forbidden Folders
+### Allowed and Forbidden Folders
 
 Each user is associated to Roles. So it means, he/she can access to the Folders defined through the Role.
 
@@ -68,7 +65,7 @@ You can also decide to restrict the access to some Folders using the setting `Fo
 
 <i class="fa fa-bullhorn" style="margin-right:10px;"></i> This should be very rare and for specific case. If it is regularly used, you should think about arranging your Roles.
 
-# Lock and Delete a User
+## Lock and Delete a User
 
 For some reason, you could need to lock a User.
 This will prevent the User to get connected to Teampass.
@@ -83,7 +80,7 @@ To `unlock` a locked User, see next screen-capture
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_users_9.png)
 
-# Change the User level
+## Change the User level
 
 You can change the User level by using the check-boxes.
 
@@ -95,7 +92,7 @@ The Users Levels are:
 * `Is Manager`: tick (2) to change the User to Manager
 * `Is Read Only`: tick (3) to change the User to become Read Only
 
-# Special actions
+## Special actions
 
 For each User, you can:
 

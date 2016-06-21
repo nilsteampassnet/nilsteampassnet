@@ -6,12 +6,9 @@ tags:       personal feature security user-guide administration
 comments:   true
 ---
 
-<div class="message">
-    This page introduces Personal Folder feature
-</div>
-<span class="linkmore"></span>
+This page introduces Personal Folder feature
 
-# Introduction
+## Introduction
 
 Personal Folder is a feature that permit each user to have a kind of personal sand box. 
 The idea is to permit the user to store his own Items in an independent context than the rest of the Items.
@@ -20,9 +17,9 @@ Personal Items are not encrypted with the Teampass Saltkey. Indeed, the encrypti
 This way no decryption is possible by anyone else than the user himself.
 
 
-# Administration
+## Administration
 
-## Enabling Personal Folder feature
+### Enabling Personal Folder feature
 
 Personal Folder is disabled by default. 
 
@@ -30,49 +27,64 @@ In order to be activated for the Users, an Administrator needs to enable the fea
 
 * ![Personal folder administration]({{ site.url }}/img/posts/pf_1.png)
 
-## Storing Personal Saltkey in cookie
+### Storing Personal Saltkey in cookie
 
 Personal Saltkey can be stored in a cookie for more convenience. This will prevent the user to enter it each time he logs in.
 
 This feature needs to be enabled through the Teampass Settings page.
 
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_2.png)
+![Personal folder administration]({{ site.url }}/img/posts/pf_2.png)
 
-# Personal Saltkey
+## Personal Saltkey
 
 Each user defines his own Personal Saltkey that will be used for Personal Items encryption.
 
-<i class="fa fa-warning" style="margin-right:10px;"></i> if the user loses his saltkey then the Personal Items will not be recoverable!
+<span class="fa fa-warning"></span>&nbsp;If the user looses his saltkey then the Personal Items will not be recoverable!
 
-## Defining a Personal Saltkey
+### Defining a Personal Saltkey
 
-In the Home page, the user has to write down his Personal Saltkey.
+Using the top righ menu button, select "Set Personal Saltkey".
 
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_3.png)
+![Personal folder administration]({{ site.url }}/img/posts/pf_10.png)
+
+Then enter the saltkey you want to use.
+
+![Personal folder administration]({{ site.url }}/img/posts/pf_11.png)
 
 Notes:
 
-* Is not mandatory if the user doesn't want to use his Persoanl Items during this time.
-* If not written and opens a Personal Items, then the password will be empty.
+* Is not mandatory if the user doesn't want to use his Personal Items during this session.
+* If not set, when opening the Personal Folder, a warning message will be displayed.
 
-## Changing the Personal Saltkey
+### Changing the Personal Saltkey
 
-The user can change his Personal Saltkey using button "Change it" from the Home page.
+The user can change his Personal Saltkey by opening his Profile dialogbox.
 
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_6.png)
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_7.png)
+![Personal folder administration]({{ site.url }}/img/posts/pf_12.png)
 
-## Personal Saltkey is lost
+Then in the menu, select "Change my Personal Saltkey"
+
+![Personal folder administration]({{ site.url }}/img/posts/pf_13.png)
+
+And set the new Saltkey
+
+![Personal folder administration]({{ site.url }}/img/posts/pf_14.png)
+
+Click `Change button`. 
+
+<span class="fa fa-info"></span>&nbsp;This will require some time because all existing Personal Passwords need to be re-encrypted with new Saltkey.
+
+### Personal Saltkey is lost
 
 This is the worst case because no recovery is possible. All your passwords are lost.
-Using button "Lost it" from the Home page permits to reset all the existing passwords.
+From the previous Profile dialogbox, click on action "Reset my Personal Saltkey".
 
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_4.png)
-* ![Personal folder administration]({{ site.url }}/img/posts/pf_5.png)
+![Personal folder administration]({{ site.url }}/img/posts/pf_15.png)
 
-# Limitation
+Enter new Saltkey, and click `Change button`. 
 
-This feature comes with a certain number of limitations which are:
+<span class="fa fa-info"></span>&nbsp;This will require some time because all existing Personal Passwords need to be re-encrypted with new Saltkey.
 
-* <i class="fa-li fa fa-check" style="margin-right:10px;"></i>It is not possible to manage sub-folders in the Personal Folder. It could be an improvement for the future.
-* <i class="fa-li fa fa-check" style="margin-right:10px;"></i>Item sharing is not possible.
+## Limitation
+
+Personal Item cannot be shared with any other user.
