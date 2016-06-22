@@ -9,16 +9,16 @@ tags:
 - - group
 ---
 
-> This page describes how to create, edit, delete and manage Groups versus Folders.
+This page describes how to create, edit, delete and manage Groups versus Folders.
 
 
-# Access to Groups Management page
+## Access to Groups Management page
 
 Access to the `Groups Management` page.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_roles_1.png)
 
-# Creating a new Group
+## Creating a new Group
 
 Click the icon `Add a Group`
 
@@ -37,13 +37,13 @@ The new Group is now added to the list.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_roles_4.png)
 
-# Edit a Role
+## Edit a Role
 
 To edit, click the `edition icon` and fill in the form.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_roles_5.png)
 
-# Delete a Role
+## Delete a Role
 
 To delete, click the `edition icon` and Confirm.
 
@@ -51,7 +51,7 @@ To delete, click the `edition icon` and Confirm.
 
 <span class="fa fa-bullhorn"></span>&nbsp;Users belonging to this Group will need to be associated to another Group.
 
-# Using the Matrix
+## Using the Matrix
 
 The Matrix permits to set the expected level of Rights the Group will have on the Folders.
 
@@ -75,7 +75,7 @@ The cell will be BLUE if one or two of the rights Write/Edit/Delete are allowed.
 
 This matrix is very powerful and visible. As you can see in the previous screen-capture.
 
-# Allow access to all Items
+## Allow access to all Items
 
 This feature is disabled by default and is unsecure but it may be helpful.
 

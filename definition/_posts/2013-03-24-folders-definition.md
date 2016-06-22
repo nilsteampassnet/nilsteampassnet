@@ -11,19 +11,19 @@ published: true
 ---
 
 
-> Teampass uses Folders in order to organize the Items.
+Teampass uses Folders in order to organize the Items.
 
-# Definition
+## Definition
 
 A Folder is a container for Items. The complete set of Folders is the Folders Tree.
 
-# Access rights
+## Access rights
 
 Each folder is set up with specific access rights for Users and/or Users Group.
 
 By default, a sub-folder inherits the access rights of its parent.  
 
-# Actions on a Folder
+## Actions on a Folder
 
 Depending on the User rights, a User may be able to:
 

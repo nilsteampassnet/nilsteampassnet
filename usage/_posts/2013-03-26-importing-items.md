@@ -6,27 +6,25 @@ tags:       import items
 comment:    true
 ---
 
-<div class="message">
 This page describes how to import Items into Teampass
-</div>
-<span class="linkmore"></span>
-# Introduction
+
+## Introduction
 
 It is possible to import Items inside Teampass using exchange files. This could permit you to move your existing items to Teampass.
 
 Teampass propose 2 possible importation formats. One is based upon CSV and the other is specific Keepass XML.
 
-# Exchange formats
+## Exchange formats
 
-## CSV solution
+### CSV solution
 
 CSV format is the simple one to put in place and the most adaptable depending on your current passwords management.
 
 You need to ensure that the list of your Items to be imported are organized following schematic: `Account`,`Login Name`,`Password`,`Web Site`,`Comments`
 
-It is mandatory to use the character quote ( " ) as text encapsulation.
+It is mandatory to use the character double-quotes ( `"` ) as text encapsulation.
 
-> If a text contains a quote then it is mandatory to double it. 
+> If a text contains a double-quotes then it is mandatory to double it. 
 
 Example:
 
@@ -72,15 +70,15 @@ If you create your file through Excel, you should have something similar to the 
   </tbody>
 </table>
 
-## Keepass XML solution
+### Keepass XML solution
 
 This solution is dedicated for people previously using Keepass as Passwords Manager.
 It uses the Export feature of Keepass, that generates a specific XML file which contains the attributes that will be imported into Teampass.
 
-# Administration
+## Administration
 
-Importing feature is disabled by default. That means that an Administrator needs to enable the feature through `Settings` page to allow users to import Items inside Teamass.
+Importing feature is disabled by default. That means that an Administrator needs to enable the feature through `Settings` page to allow users to import Items inside Teampass.
 
-# How to?
+## How to?
 
 Importing Items is performed from the `Home` page.

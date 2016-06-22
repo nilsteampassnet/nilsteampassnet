@@ -8,19 +8,15 @@ tags:
 published: true
 ---
 
+This page describes how to create, edit, delete and manage Folders.
 
-<p class="message">
-    This page describes how to create, edit, delete and manage Folders.
-</p>
-<span class="linkmore"></span>
-
-# Access to Folders Management page
+## Access to Folders Management page
 
 Access to the `Folders Management` page.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_1.png)
 
-# Creating a new Folder
+## Creating a new Folder
 
 Click the icon `Add a Folder`
 
@@ -41,14 +37,14 @@ The new Folder created is now in the list.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_4.png)
 
-# Edit a Folder
+## Edit a Folder
 
 You can at any moment edit a folder. Click the folder you want to edit and the edition dialog-box will be shown.
 
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_5.png)
 ![Folders Icon]({{ site.baseurl }}/img/posts/mng_fld_6.png)
 
-# Delete a Folder
+## Delete a Folder
 
 Deleting a Folder is done by clicking the `Delete icon`.
 
@@ -56,11 +52,11 @@ Deleting a Folder is done by clicking the `Delete icon`.
 
 If you confirm the deletion, then all Items inside this Folder will also be deleted.
 
-# Special actions on Folder
+## Special actions on Folder
 
 2 special actions exist in order to ease the every-day usage.
 
-## Creating a new Item that doesn't fulfil the minimum complicity level
+### Creating a new Item that doesn't fulfil the minimum complicity level
 
 In some circumstances, a User may need to add an Item that doesn't fulfil the password complicity level. *A typical example is when you create inside Teampass an Item that already has a used password*.
 
@@ -70,7 +66,7 @@ For this, tick the box as shown in next screen capture.
 
 <i class="fa fa-lightbulb-o" style="margin-right:10px;"></i> Activate this only for a short time.
 
-## Editing an Item that doesn't fulfil the minimum complicity level
+### Editing an Item that doesn't fulfil the minimum complicity level
 
 In some circumstances, a User may need to edit an Item that doesn't fulfil the password complicity level.
 

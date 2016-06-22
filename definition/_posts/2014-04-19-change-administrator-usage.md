@@ -9,10 +9,8 @@ toc: false
 published: true
 ---
 
+The Administrator user type can also manage Items.
 
-<p class="message">
-    The Administrator user type can also manage Items.
-</p>
 
 > An Administrator has by default no access to Items.
 

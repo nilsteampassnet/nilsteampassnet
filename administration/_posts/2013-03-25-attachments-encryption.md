@@ -11,11 +11,7 @@ noToc: false
 published: true
 ---
 
-
-<div class="message">
 Teampass permits you to encrypt the Item attachments.
-</div>
-<span class="linkmore"></span>
 
 # Introduction
 
@@ -29,10 +25,11 @@ The encryption is performed using Teampass Saltkey. Be careful, this requires mo
 # Changing encryption strategy in production mode
 
 If you decide to change strategy while attachments already exist, it is then mandatory to apply the strategy on those files.
-This has to be done in both cases.
 
-If previous status was `Disabled`, then you need to encrypt all existing files.
-If previous status was `Enabled`, then you need to decrypt all existing files.
+This has to be done in both cases:
+
+- If previous status was `Disabled`, then you need to encrypt all existing files.
+- If previous status was `Enabled`, then you need to decrypt all existing files.
 
 # How to apply new strategy?
 
