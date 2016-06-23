@@ -3,29 +3,33 @@ layout: 		page
 title: 			Features
 ---
 
-<p class="message">
-	TeamPass is highly customizable to fit your expectations.
-    This page lists the main available features.
-</p>
+TeamPass is highly customizable to fit major expectations.
 
-# Team and Resource organization
+## Team and Resource organization
 
 * Unique User access
-* Define Groups of users
-* Define Roles with specific rights on Folders
+* Pre-defined Roles (Admin, Manager, User, Read-Only) to relate to User
+* Define custom User-Goups
+* Define access rights on Folders using User-Goups
+* Define custom access rights by User
 
-# Secured access
+## Secured access
 
 * Each user has his own account with login and password
 * 2-step authentication with Google Authenticator can be set
+* 2-step authentication with DUO Security
+* 2-step authentication with AGSES (coming soon)
+* LDAP connector
 
-# Access to Items through privileges
+## Access to Items through privileges
 
-* User can access to folders only if allowed
-* Access to folders and Items relies on definition of rights for each User
-* Access to folders and Items can be defined for each Role
+* User can access to Folders only if allowed
+* Access to Folders and Items relies on definition of rights for each User
+* Access to folders and Items can be defined for each User-Goup
+* Access rights from User-to-User (for each Item)
+* Share Item to "not Teampass User" through `One-Time-View` link
 
-# Advanced Item definition
+## Advanced Item definition
 
 * Item is defined with several fields
 * Item is associated to a folder and to tags
@@ -33,29 +37,29 @@ title: 			Features
 * Define your own fields to be filled in when defining an Item
 * Own fields are related to folders
 
-# Personal folders
+## Personal folders
 
 * Each user may have a "personal folders"
 * Personal items are encrypted with personal key
 
-# Security
+## Security
 
 * Even if Teampass highly suggests using an HTTPS connection, built-in requests can be encrypted (optional)
 * All passwords are encrypted in database relying on AES-256 algorithm
 * All own fields are encrypted in database
 * Attached files can be encrypted (optional)
 
-# Off line mode (optional)
+## Off line mode (optional)
 
 * Export the passwords in an off line mode
 * Permits to access Items when not connected to internet
 
-# Miscellaneous features
+## Miscellaneous features
 
 * Export the Items in PDF file
 * Import from Keepass XML and CSV file
 
-# Screen captures
+## Screen captures
 
 ![Home page]({{ site.baseurl }}/img/posts/feat_1.png)
 ![Items page]({{ site.baseurl }}/img/posts/feat_2.png)
