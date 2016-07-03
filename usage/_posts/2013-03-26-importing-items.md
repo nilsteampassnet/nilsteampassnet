@@ -75,10 +75,36 @@ If you create your file through Excel, you should have something similar to the 
 This solution is dedicated for people previously using Keepass as Passwords Manager.
 It uses the Export feature of Keepass, that generates a specific XML file which contains the attributes that will be imported into Teampass.
 
+To get the file:
+
+* open Keepass
+* Select `File > Export`
+* Select XML format and enter the file name
+* The file is now available in the folder you selected
+
+![Categories]({{ site.baseurl }}/img/posts/importing_1.png)
+
 ## Administration
 
 Importing feature is disabled by default. That means that an Administrator needs to enable the feature through `Settings` page to allow users to import Items inside Teampass.
 
 ## How to?
 
-Importing Items is performed from the `Home` page.
+Importing Items is performed from the `Items` page. 
+
+Do the following, 
+
+* select the folder where you want the Items to be imported,
+* from top-left menu icon, click `Import items`.
+
+### Select CSV format
+
+![Categories]({{ site.baseurl }}/img/posts/importing_2.png)
+
+Click on `Browse CSV file` to select the file and follow instructions.
+
+### Select XML format
+
+![Categories]({{ site.baseurl }}/img/posts/importing_3.png)
+
+Click on `Browse XML file and import entries` to select the file and follow instructions.
