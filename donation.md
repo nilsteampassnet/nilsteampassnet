@@ -39,6 +39,12 @@ So if you use it, you may consider a donation.
   </thead>
   <tbody>
     <tr>
+      <td>David Brouwers</td>
+      <td>$50.00</td>
+      <td>2016-10-13</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>Proxmox Server Solutions GmbH</td>
       <td>€250.00</td>
       <td>2016-06-21</td>
