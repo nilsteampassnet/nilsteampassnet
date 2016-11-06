@@ -39,6 +39,12 @@ So if you use it, you may consider a donation.
   </thead>
   <tbody>
     <tr>
+      <td>Brent Wagner</td>
+      <td>$10.00</td>
+      <td>2016-11-03</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>David Brouwers</td>
       <td>$50.00</td>
       <td>2016-10-13</td>
