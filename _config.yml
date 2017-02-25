@@ -34,14 +34,16 @@ navbar-links:
     - Tags: "tags"
     - Languages: "languages"
   #Reqs: "requirements"
+  Documentation: "doc"
   Features: "feat"
   #License: "license"
   Donation: "donation"
-  Contact: "contact"
+  #Contact: "contact"
   information:
     - About: "about"
     - Requirements: "requirements"
     - License: "license_gnu_affero_3"
+    - Contact: "contact"
   
 # --- Footer options --- #
 
