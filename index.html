@@ -55,8 +55,8 @@ Reporting Bugs must be done in <a href="https://github.com/nilsteampassnet/TeamP
 </div>
 
 <div class="posts-list">
-  <!--{% for post in paginator.posts %}-->
-  {% for post in site.categories.administration %}
+  {% for post in paginator.posts %}
+  {% if post.categories contains 'administration' %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
@@ -77,6 +77,7 @@ Reporting Bugs must be done in <a href="https://github.com/nilsteampassnet/TeamP
     </div>
   
    </article>
+  {% endif %} 
   {% endfor %}
 </div>
 {% if paginator.total_pages > 1 %}
