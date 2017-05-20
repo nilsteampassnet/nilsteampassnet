@@ -39,6 +39,12 @@ So if you use it, you may consider a donation.
   </thead>
   <tbody>
     <tr>
+      <td>Le Goût du Libre</td>
+      <td>$10000</td>
+      <td>2017-05-18</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>Michel Bisson</td>
       <td>$10.00</td>
       <td>2017-04-08</td>
