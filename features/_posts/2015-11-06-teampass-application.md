@@ -47,7 +47,7 @@ Complete documentation is available in next pages.
 
 [Lite Edition](https://play.google.com/store/apps/details?id=ch.alpeinsoft.passsecurium.lite&hl=en)
 
-[StadAlone Edition](https://play.google.com/store/apps/details?id=ch.alpeinsoft.passsecurium&hl=en)
+[StandAlone Edition](https://play.google.com/store/apps/details?id=ch.alpeinsoft.passsecurium&hl=en)
 
 ### For iOS
 
